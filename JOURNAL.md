@@ -1,0 +1,5 @@
+# September 3th: Started working on the schematic.
+
+Firstly I looked at the tutorial and made the button grid. I chose to use 4 16 pin IO expanders for this. Because I can see every button's state, and I can use interupt instead of polling. I chose to make the grid 8x8, because at that size you can do a lot with it, and it isn't too big. then I tried looking to how I wanted to make the control surface. I want to make it have an audio interface, so that you can output your pc sound via the DAC. But I can't find a usb to I²S chip in kiCad. My plan currently is to have a internal usb hub. That will have the pi and the usb interface connected to it. When you plug it in to a computer, the pi will send midi to Ableton, and to audio will go via the usb interface. But when you are not connected to a computer. It will play the midi notes via the line out itself. So you don't need a computer to use it. But I don't know if I will find a usb to I²S chip.
+
+**Total time spent: 7h**
