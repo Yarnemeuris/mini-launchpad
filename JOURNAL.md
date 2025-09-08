@@ -24,3 +24,14 @@ I added 8 encoders to another io expander.
 The reason I use io expanders is just for the easy interupts. That way I have easier code anddon't have to poll the encoders at a fast rate to get every change. I'm also going to dupple dip with SoM so I downloaded the KiCad-wakatime plugin. Hopefully it will work well for me. That was it for today, I didn't do much.
 
 **Total time spent: 0.5h**
+
+# September 8th: Started adding the control buttons.
+
+So I started adding some buttons for control. Like playing, pausing, changing mode, etc.
+<img width="662" height="628" alt="image" src="https://github.com/user-attachments/assets/18cf9ccd-b3ef-49f9-849e-cac2eca1cef6" />
+
+But it has me questioning everything. What do I want it to do. Do I add those features, but then I should also add that.
+
+I didn't make much progress today. But now I have more thing I can think about and decide during boring school lessons.
+
+**Total time spent: 0.5h**
