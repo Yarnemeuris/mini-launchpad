@@ -11795,7 +11795,7 @@
 			)
 		)
 	)
-	(global_label "D-2"
+	(global_label "2D-"
 		(shape bidirectional)
 		(at 303.53 191.77 0)
 		(fields_autoplaced yes)
@@ -11861,7 +11861,7 @@
 			)
 		)
 	)
-	(global_label "D+2"
+	(global_label "2D+"
 		(shape bidirectional)
 		(at 323.85 209.55 180)
 		(fields_autoplaced yes)
@@ -12015,7 +12015,7 @@
 			)
 		)
 	)
-	(global_label "D+1"
+	(global_label "1D+"
 		(shape bidirectional)
 		(at 303.53 201.93 0)
 		(fields_autoplaced yes)
@@ -12257,7 +12257,7 @@
 			)
 		)
 	)
-	(global_label "D+1"
+	(global_label "1D+"
 		(shape bidirectional)
 		(at 109.22 52.07 180)
 		(fields_autoplaced yes)
@@ -12301,7 +12301,7 @@
 			)
 		)
 	)
-	(global_label "D-2"
+	(global_label "2D-"
 		(shape bidirectional)
 		(at 323.85 212.09 180)
 		(fields_autoplaced yes)
@@ -12653,7 +12653,7 @@
 			)
 		)
 	)
-	(global_label "D-1"
+	(global_label "1D-"
 		(shape bidirectional)
 		(at 303.53 199.39 0)
 		(fields_autoplaced yes)
@@ -12697,7 +12697,7 @@
 			)
 		)
 	)
-	(global_label "D-1"
+	(global_label "1D-"
 		(shape bidirectional)
 		(at 109.22 54.61 180)
 		(fields_autoplaced yes)
@@ -12851,7 +12851,7 @@
 			)
 		)
 	)
-	(global_label "D+2"
+	(global_label "2D+"
 		(shape bidirectional)
 		(at 303.53 194.31 0)
 		(fields_autoplaced yes)
@@ -13136,6 +13136,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 274.32 186.69 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48c5736c-7fff-461e-84f7-3ced9f09bd47")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 274.32 184.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9cef2b6-2347-47b2-bf8d-557a162bfe5e")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13431,8 +13453,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 220.98 111.76 0)
-		(mirror y)
+		(at 226.06 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13440,7 +13461,7 @@
 		(dnp no)
 		(uuid "051d3737-03da-47ed-ae06-92adc8559c75")
 		(property "Reference" "SW47"
-			(at 220.98 107.442 0)
+			(at 226.06 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,7 +13469,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 220.98 106.68 0)
+			(at 226.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,7 +13478,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 220.98 111.76 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,7 +13487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 111.76 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13475,7 +13496,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 220.98 111.76 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13874,7 +13895,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 245.11 132.08 180)
+		(at 220.98 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13882,7 +13904,7 @@
 		(dnp no)
 		(uuid "0a94481d-e849-4fe8-8169-6fc6541a1a30")
 		(property "Reference" "SW40"
-			(at 245.11 136.398 0)
+			(at 220.98 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13890,7 +13912,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 245.11 137.16 0)
+			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +13921,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 245.11 132.08 0)
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +13930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 132.08 0)
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13917,7 +13939,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 245.11 132.08 0)
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,7 +14031,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 375.92 101.6 0)
+		(at 394.97 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14017,7 +14039,7 @@
 		(dnp no)
 		(uuid "0c473d98-c3b2-4606-8bf1-d22d29a2798c")
 		(property "Reference" "SW23"
-			(at 375.92 97.282 0)
+			(at 394.97 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +14047,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 375.92 96.52 0)
+			(at 394.97 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +14056,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 375.92 101.6 0)
+			(at 394.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14043,7 +14065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 101.6 0)
+			(at 394.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14052,7 +14074,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 375.92 101.6 0)
+			(at 394.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14077,7 +14099,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 226.06 55.88 180)
+		(at 232.41 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14085,7 +14107,7 @@
 		(dnp no)
 		(uuid "0e599895-e513-4fc4-ac14-80a1ce8583ad")
 		(property "Reference" "SW62"
-			(at 226.06 60.198 0)
+			(at 232.41 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14093,7 +14115,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 226.06 60.96 0)
+			(at 232.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14102,7 +14124,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 226.06 55.88 0)
+			(at 232.41 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,7 +14133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 55.88 0)
+			(at 232.41 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14120,7 +14142,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 226.06 55.88 0)
+			(at 232.41 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14771,7 +14793,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 130.81 161.29 270)
+		(at 129.54 220.98 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14780,7 +14802,7 @@
 		(dnp no)
 		(uuid "14d9bae0-bbc5-4a11-9f1b-170e40aaa8a5")
 		(property "Reference" "SW69"
-			(at 136.906 161.29 0)
+			(at 123.444 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14788,7 +14810,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 138.43 161.29 0)
+			(at 121.92 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14797,7 +14819,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 134.874 165.1 0)
+			(at 125.476 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14806,7 +14828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 161.29 0)
+			(at 142.24 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14815,7 +14837,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 115.57 161.29 0)
+			(at 144.78 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15470,7 +15492,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 246.38 101.6 0)
+		(at 227.33 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15479,7 +15501,7 @@
 		(dnp no)
 		(uuid "1d75fc6a-a797-4fc7-a2a4-83250c2e32ca")
 		(property "Reference" "SW39"
-			(at 246.38 97.282 0)
+			(at 227.33 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15509,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 246.38 96.52 0)
+			(at 227.33 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15518,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 246.38 101.6 0)
+			(at 227.33 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 101.6 0)
+			(at 227.33 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15536,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 246.38 101.6 0)
+			(at 227.33 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16595,7 +16617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 295.91 212.09 0)
 			(effects
 				(font
@@ -16682,7 +16704,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 394.97 109.22 0)
+		(at 383.54 129.54 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16690,7 +16713,7 @@
 		(dnp no)
 		(uuid "28b49965-6322-4877-b06c-3d9e553b7fe4")
 		(property "Reference" "SW29"
-			(at 394.97 104.902 0)
+			(at 383.54 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16698,7 +16721,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 394.97 104.14 0)
+			(at 383.54 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16707,7 +16730,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 394.97 109.22 0)
+			(at 383.54 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16716,7 +16739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 109.22 0)
+			(at 383.54 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16725,7 +16748,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 394.97 109.22 0)
+			(at 383.54 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16950,8 +16973,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 358.14 139.7 0)
-		(mirror x)
+		(at 363.22 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16959,7 +16981,7 @@
 		(dnp no)
 		(uuid "2ea52e4c-9083-402e-9cbd-a35922bfb9ae")
 		(property "Reference" "SW18"
-			(at 358.14 144.018 0)
+			(at 363.22 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16967,7 +16989,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 358.14 144.78 0)
+			(at 363.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16976,7 +16998,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 358.14 139.7 0)
+			(at 363.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16985,7 +17007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 139.7 0)
+			(at 363.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,7 +17016,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 358.14 139.7 0)
+			(at 363.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,7 +17110,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 257.81 68.58 180)
+		(at 246.38 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17096,7 +17119,7 @@
 		(dnp no)
 		(uuid "2ff37465-2378-4ed7-a7e5-b285ce632748")
 		(property "Reference" "SW52"
-			(at 257.81 72.898 0)
+			(at 246.38 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17104,7 +17127,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 257.81 73.66 0)
+			(at 246.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17113,7 +17136,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 257.81 68.58 0)
+			(at 246.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17122,7 +17145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 68.58 0)
+			(at 246.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17131,7 +17154,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 257.81 68.58 0)
+			(at 246.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17832,7 +17855,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 246.38 33.02 0)
+		(at 227.33 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17841,7 +17864,7 @@
 		(dnp no)
 		(uuid "377f5edc-7093-4932-b79e-c778836cdc91")
 		(property "Reference" "SW55"
-			(at 246.38 28.702 0)
+			(at 227.33 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17849,7 +17872,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 246.38 27.94 0)
+			(at 227.33 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,7 +17881,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 246.38 33.02 0)
+			(at 227.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17867,7 +17890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 33.02 0)
+			(at 227.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17876,7 +17899,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 246.38 33.02 0)
+			(at 227.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17901,8 +17924,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 370.84 134.62 0)
-		(mirror x)
+		(at 388.62 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17910,7 +17932,7 @@
 		(dnp no)
 		(uuid "37ab24c5-20cb-49d0-9548-cc20cd0a984f")
 		(property "Reference" "SW22"
-			(at 370.84 138.938 0)
+			(at 388.62 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17918,7 +17940,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 370.84 139.7 0)
+			(at 388.62 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17927,7 +17949,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 370.84 134.62 0)
+			(at 388.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17936,7 +17958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 134.62 0)
+			(at 388.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17945,7 +17967,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 370.84 134.62 0)
+			(at 388.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18871,7 +18893,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 389.89 127 0)
+		(at 377.19 132.08 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18880,7 +18902,7 @@
 		(dnp no)
 		(uuid "3f009f14-c76f-4165-b158-b0cbcbcb742e")
 		(property "Reference" "SW28"
-			(at 389.89 131.318 0)
+			(at 377.19 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18888,7 +18910,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 389.89 132.08 0)
+			(at 377.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18897,7 +18919,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 389.89 127 0)
+			(at 377.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18906,7 +18928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 127 0)
+			(at 377.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18915,7 +18937,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 389.89 127 0)
+			(at 377.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19007,7 +19029,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 232.41 58.42 180)
+		(at 245.11 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19015,7 +19037,7 @@
 		(dnp no)
 		(uuid "418361fe-0415-4ff7-b376-6000176fa1e0")
 		(property "Reference" "SW60"
-			(at 232.41 62.738 0)
+			(at 245.11 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19023,7 +19045,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 232.41 63.5 0)
+			(at 245.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19032,7 +19054,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 232.41 58.42 0)
+			(at 245.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19041,7 +19063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 58.42 0)
+			(at 245.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19050,7 +19072,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 232.41 58.42 0)
+			(at 245.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19341,7 +19363,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 186.69 220.98 90)
+		(at 130.81 161.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19350,7 +19372,7 @@
 		(dnp no)
 		(uuid "45a11f38-7759-4377-b33b-8e6245344db6")
 		(property "Reference" "SW70"
-			(at 180.594 220.98 0)
+			(at 136.906 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19358,7 +19380,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 179.07 220.98 0)
+			(at 138.43 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19367,7 +19389,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 182.626 217.17 0)
+			(at 134.874 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19376,7 +19398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 220.98 0)
+			(at 118.11 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +19407,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 201.93 220.98 0)
+			(at 115.57 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19985,7 +20007,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 129.54 220.98 90)
+		(at 187.96 161.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19994,7 +20016,7 @@
 		(dnp no)
 		(uuid "4aed09e0-0824-447b-b039-54939eca1810")
 		(property "Reference" "SW73"
-			(at 123.444 220.98 0)
+			(at 194.056 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20002,7 +20024,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 121.92 220.98 0)
+			(at 195.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20011,7 +20033,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 125.476 217.17 0)
+			(at 192.024 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20020,7 +20042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 220.98 0)
+			(at 175.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20029,7 +20051,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 144.78 220.98 0)
+			(at 172.72 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20275,7 +20297,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 245.11 63.5 180)
+		(at 220.98 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20283,7 +20306,7 @@
 		(dnp no)
 		(uuid "4d08067c-765c-4cc2-84bc-0e62826712f2")
 		(property "Reference" "SW56"
-			(at 245.11 67.818 0)
+			(at 220.98 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20291,7 +20314,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 245.11 68.58 0)
+			(at 220.98 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20300,7 +20323,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 245.11 63.5 0)
+			(at 220.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20309,7 +20332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 63.5 0)
+			(at 220.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20318,7 +20341,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 245.11 63.5 0)
+			(at 220.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21825,8 +21848,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 227.33 109.22 0)
-		(mirror y)
+		(at 238.76 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21834,7 +21856,7 @@
 		(dnp no)
 		(uuid "6187070d-fe36-4193-9239-e2cf53d87767")
 		(property "Reference" "SW45"
-			(at 227.33 104.902 0)
+			(at 238.76 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21842,7 +21864,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 227.33 104.14 0)
+			(at 238.76 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21851,7 +21873,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 227.33 109.22 0)
+			(at 238.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21860,7 +21882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 109.22 0)
+			(at 238.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21869,7 +21891,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 227.33 109.22 0)
+			(at 238.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21961,7 +21983,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 238.76 129.54 180)
+		(at 257.81 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21969,7 +21991,7 @@
 		(dnp no)
 		(uuid "6401699c-a727-4504-8e1a-483cc9bbac32")
 		(property "Reference" "SW42"
-			(at 238.76 133.858 0)
+			(at 257.81 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21977,7 +21999,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 238.76 134.62 0)
+			(at 257.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21986,7 +22008,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 238.76 129.54 0)
+			(at 257.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21995,7 +22017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 129.54 0)
+			(at 257.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22004,7 +22026,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 238.76 129.54 0)
+			(at 257.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22163,7 +22185,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 167.64 220.98 90)
+		(at 149.86 161.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22172,7 +22194,7 @@
 		(dnp no)
 		(uuid "6960fed8-cd20-4cd6-83fd-35e40f1dfc68")
 		(property "Reference" "SW71"
-			(at 161.544 220.98 0)
+			(at 155.956 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22180,7 +22202,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 160.02 220.98 0)
+			(at 157.48 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22189,7 +22211,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 163.576 217.17 0)
+			(at 153.924 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22198,7 +22220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 220.98 0)
+			(at 137.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22207,7 +22229,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 182.88 220.98 0)
+			(at 134.62 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23181,7 +23203,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 264.16 139.7 180)
+		(at 259.08 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23189,7 +23212,7 @@
 		(dnp no)
 		(uuid "7142ce4f-9a71-460e-9d61-014283ebee76")
 		(property "Reference" "SW34"
-			(at 264.16 144.018 0)
+			(at 259.08 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23197,7 +23220,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 264.16 144.78 0)
+			(at 259.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,7 +23229,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 264.16 139.7 0)
+			(at 259.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23215,7 +23238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 139.7 0)
+			(at 259.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23224,7 +23247,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 264.16 139.7 0)
+			(at 259.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,8 +23406,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 377.19 132.08 0)
-		(mirror x)
+		(at 401.32 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23392,7 +23414,7 @@
 		(dnp no)
 		(uuid "733c5075-06c1-47da-8218-a8ef4192cf5f")
 		(property "Reference" "SW24"
-			(at 377.19 136.398 0)
+			(at 401.32 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23400,7 +23422,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 377.19 137.16 0)
+			(at 401.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23409,7 +23431,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 377.19 132.08 0)
+			(at 401.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23418,7 +23440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 132.08 0)
+			(at 401.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23427,7 +23449,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 377.19 132.08 0)
+			(at 401.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23452,7 +23474,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 259.08 96.52 0)
+		(at 252.73 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23461,7 +23483,7 @@
 		(dnp no)
 		(uuid "73b39f74-3730-4e47-bbef-360cc36889df")
 		(property "Reference" "SW35"
-			(at 259.08 92.202 0)
+			(at 252.73 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23469,7 +23491,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 259.08 91.44 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23478,7 +23500,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 259.08 96.52 0)
+			(at 252.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23487,7 +23509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 96.52 0)
+			(at 252.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23496,7 +23518,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 259.08 96.52 0)
+			(at 252.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23790,7 +23812,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 369.57 99.06 0)
+		(at 382.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23798,7 +23820,7 @@
 		(dnp no)
 		(uuid "7801b444-5773-4946-b1f3-7fd31e3f7ace")
 		(property "Reference" "SW21"
-			(at 369.57 94.742 0)
+			(at 382.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23806,7 +23828,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 369.57 93.98 0)
+			(at 382.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23815,7 +23837,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 369.57 99.06 0)
+			(at 382.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23824,7 +23846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 99.06 0)
+			(at 382.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23833,7 +23855,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 369.57 99.06 0)
+			(at 382.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24430,7 +24452,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 149.86 161.29 270)
+		(at 148.59 220.98 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24439,7 +24461,7 @@
 		(dnp no)
 		(uuid "7b8dc0d3-051d-4e12-82dc-74b96c1df8b0")
 		(property "Reference" "SW68"
-			(at 155.956 161.29 0)
+			(at 142.494 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24447,7 +24469,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 157.48 161.29 0)
+			(at 140.97 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24456,7 +24478,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 153.924 165.1 0)
+			(at 144.526 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24465,7 +24487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 161.29 0)
+			(at 161.29 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24474,7 +24496,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 134.62 161.29 0)
+			(at 163.83 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24511,7 +24533,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 238.76 60.96 180)
+		(at 257.81 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24519,7 +24541,7 @@
 		(dnp no)
 		(uuid "7b9865ac-daaf-451b-b426-b7d243074c24")
 		(property "Reference" "SW58"
-			(at 238.76 65.278 0)
+			(at 257.81 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24527,7 +24549,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 238.76 66.04 0)
+			(at 257.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24536,7 +24558,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 238.76 60.96 0)
+			(at 257.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24545,7 +24567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 60.96 0)
+			(at 257.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24554,7 +24576,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 238.76 60.96 0)
+			(at 257.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27036,8 +27058,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 227.33 40.64 0)
-		(mirror y)
+		(at 238.76 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27045,7 +27066,7 @@
 		(dnp no)
 		(uuid "a196702a-2cea-4d53-a08a-ba2ab63c0e67")
 		(property "Reference" "SW61"
-			(at 227.33 36.322 0)
+			(at 238.76 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27053,7 +27074,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 227.33 35.56 0)
+			(at 238.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27062,7 +27083,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 227.33 40.64 0)
+			(at 238.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27071,7 +27092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 40.64 0)
+			(at 238.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27080,7 +27101,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 227.33 40.64 0)
+			(at 238.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27172,7 +27193,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 264.16 71.12 180)
+		(at 259.08 27.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27180,7 +27202,7 @@
 		(dnp no)
 		(uuid "a6258e3a-335e-4a8f-83ed-2bcca476f7eb")
 		(property "Reference" "SW50"
-			(at 264.16 75.438 0)
+			(at 259.08 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27188,7 +27210,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 264.16 76.2 0)
+			(at 259.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27197,7 +27219,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 264.16 71.12 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27206,7 +27228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 71.12 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27215,7 +27237,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 264.16 71.12 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27725,8 +27747,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 233.68 38.1 0)
-		(mirror y)
+		(at 251.46 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27734,7 +27755,7 @@
 		(dnp no)
 		(uuid "a8fb4406-0233-4577-8122-efd6a910d5b8")
 		(property "Reference" "SW59"
-			(at 233.68 33.782 0)
+			(at 251.46 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27742,7 +27763,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 233.68 33.02 0)
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27751,7 +27772,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 233.68 38.1 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27760,7 +27781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 38.1 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27769,7 +27790,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 233.68 38.1 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28193,7 +28214,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 251.46 66.04 180)
+		(at 233.68 38.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28201,7 +28223,7 @@
 		(dnp no)
 		(uuid "af810231-d16f-4a39-8e24-a5770c58a6ca")
 		(property "Reference" "SW54"
-			(at 251.46 70.358 0)
+			(at 233.68 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28209,7 +28231,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 251.46 71.12 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28218,7 +28240,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 251.46 66.04 0)
+			(at 233.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28227,7 +28249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 66.04 0)
+			(at 233.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28236,7 +28258,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 251.46 66.04 0)
+			(at 233.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28622,8 +28644,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 240.03 35.56 0)
-		(mirror y)
+		(at 264.16 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28631,7 +28652,7 @@
 		(dnp no)
 		(uuid "b345f980-9443-4c03-8d2a-8bc6d6753b6b")
 		(property "Reference" "SW57"
-			(at 240.03 31.242 0)
+			(at 264.16 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28639,7 +28660,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 240.03 30.48 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28648,7 +28669,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 240.03 35.56 0)
+			(at 264.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28657,7 +28678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 35.56 0)
+			(at 264.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28666,7 +28687,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 240.03 35.56 0)
+			(at 264.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28829,7 +28850,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 382.27 104.14 0)
+		(at 358.14 139.7 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28837,7 +28859,7 @@
 		(dnp no)
 		(uuid "b6390c7d-0daf-4a7b-b762-7baf1c0397af")
 		(property "Reference" "SW25"
-			(at 382.27 99.822 0)
+			(at 358.14 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28845,7 +28867,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 382.27 99.06 0)
+			(at 358.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28854,7 +28876,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 382.27 104.14 0)
+			(at 358.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28863,7 +28885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 104.14 0)
+			(at 358.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28872,7 +28894,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 382.27 104.14 0)
+			(at 358.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29246,7 +29268,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 148.59 220.98 90)
+		(at 168.91 161.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29255,7 +29277,7 @@
 		(dnp no)
 		(uuid "b963d9c7-384f-4e50-b9b2-75e37fa3c413")
 		(property "Reference" "SW72"
-			(at 142.494 220.98 0)
+			(at 175.006 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29263,7 +29285,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 140.97 220.98 0)
+			(at 176.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29272,7 +29294,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 144.526 217.17 0)
+			(at 172.974 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29281,7 +29303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 220.98 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29290,7 +29312,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 163.83 220.98 0)
+			(at 153.67 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29327,7 +29349,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 187.96 161.29 270)
+		(at 186.69 220.98 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29336,7 +29358,7 @@
 		(dnp no)
 		(uuid "ba48082f-8d9b-47e1-b5e0-a6555e4ee513")
 		(property "Reference" "SW66"
-			(at 194.056 161.29 0)
+			(at 180.594 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29344,7 +29366,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 195.58 161.29 0)
+			(at 179.07 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29353,7 +29375,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 192.024 165.1 0)
+			(at 182.626 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29362,7 +29384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 161.29 0)
+			(at 199.39 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29371,7 +29393,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 172.72 161.29 0)
+			(at 201.93 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29713,8 +29735,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 364.49 137.16 0)
-		(mirror x)
+		(at 375.92 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29722,7 +29743,7 @@
 		(dnp no)
 		(uuid "be0172ca-2ee5-406a-a0fb-c0fe81da8456")
 		(property "Reference" "SW20"
-			(at 364.49 141.478 0)
+			(at 375.92 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29730,7 +29751,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 364.49 142.24 0)
+			(at 375.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29739,7 +29760,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 364.49 137.16 0)
+			(at 375.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29748,7 +29769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 137.16 0)
+			(at 375.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29757,7 +29778,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 364.49 137.16 0)
+			(at 375.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29848,8 +29869,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 240.03 104.14 0)
-		(mirror y)
+		(at 264.16 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29857,7 +29877,7 @@
 		(dnp no)
 		(uuid "bfe27fb2-5257-4bf7-b206-3386ab008a05")
 		(property "Reference" "SW41"
-			(at 240.03 99.822 0)
+			(at 264.16 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29865,7 +29885,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 240.03 99.06 0)
+			(at 264.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29874,7 +29894,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 240.03 104.14 0)
+			(at 264.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29883,7 +29903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 104.14 0)
+			(at 264.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29892,7 +29912,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 240.03 104.14 0)
+			(at 264.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30188,7 +30208,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 252.73 30.48 0)
+		(at 240.03 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30197,7 +30217,7 @@
 		(dnp no)
 		(uuid "c1a12c09-42cf-46a8-bf98-52c1124e9460")
 		(property "Reference" "SW53"
-			(at 252.73 26.162 0)
+			(at 240.03 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30205,7 +30225,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 25.4 0)
+			(at 240.03 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30214,7 +30234,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 252.73 30.48 0)
+			(at 240.03 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30223,7 +30243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 30.48 0)
+			(at 240.03 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30232,7 +30252,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 252.73 30.48 0)
+			(at 240.03 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31130,7 +31150,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 396.24 124.46 0)
+		(at 389.89 127 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31139,7 +31159,7 @@
 		(dnp no)
 		(uuid "caa89136-e839-4815-845f-168ff95f1330")
 		(property "Reference" "SW30"
-			(at 396.24 128.778 0)
+			(at 389.89 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31147,7 +31167,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 396.24 129.54 0)
+			(at 389.89 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31156,7 +31176,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 396.24 124.46 0)
+			(at 389.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31165,7 +31185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 396.24 124.46 0)
+			(at 389.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31174,7 +31194,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 396.24 124.46 0)
+			(at 389.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31332,7 +31352,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 257.81 137.16 180)
+		(at 246.38 101.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31340,7 +31361,7 @@
 		(dnp no)
 		(uuid "cb4a2abf-9b68-419f-a04e-c988c97d287d")
 		(property "Reference" "SW36"
-			(at 257.81 141.478 0)
+			(at 246.38 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31348,7 +31369,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 257.81 142.24 0)
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31357,7 +31378,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 257.81 137.16 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31366,7 +31387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 137.16 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31375,7 +31396,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 257.81 137.16 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31400,7 +31421,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 388.62 106.68 0)
+		(at 370.84 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31408,7 +31430,7 @@
 		(dnp no)
 		(uuid "cc0ac3d6-3e10-4286-a026-20699401b67f")
 		(property "Reference" "SW27"
-			(at 388.62 102.362 0)
+			(at 370.84 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31416,7 +31438,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 388.62 101.6 0)
+			(at 370.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31425,7 +31447,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 388.62 106.68 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31434,7 +31456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 106.68 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31443,7 +31465,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 388.62 106.68 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31603,7 +31625,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 168.91 161.29 270)
+		(at 167.64 220.98 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31612,7 +31634,7 @@
 		(dnp no)
 		(uuid "d213f37c-74c6-4c49-bcf6-29fc2010d850")
 		(property "Reference" "SW67"
-			(at 175.006 161.29 0)
+			(at 161.544 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31620,7 +31642,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 176.53 161.29 0)
+			(at 160.02 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31629,7 +31651,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 172.974 165.1 0)
+			(at 163.576 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31638,7 +31660,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 161.29 0)
+			(at 180.34 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31647,7 +31669,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 153.67 161.29 0)
+			(at 182.88 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31885,8 +31907,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 220.98 43.18 0)
-		(mirror y)
+		(at 226.06 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31894,7 +31915,7 @@
 		(dnp no)
 		(uuid "d4078aa7-50f7-4442-a174-580350428638")
 		(property "Reference" "SW63"
-			(at 220.98 38.862 0)
+			(at 226.06 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31902,7 +31923,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 220.98 38.1 0)
+			(at 226.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31911,7 +31932,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 220.98 43.18 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31920,7 +31941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 43.18 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31929,7 +31950,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 220.98 43.18 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31954,8 +31975,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 233.68 106.68 0)
-		(mirror y)
+		(at 251.46 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31963,7 +31983,7 @@
 		(dnp no)
 		(uuid "d422d0a7-6859-408f-8d9e-403984314ea2")
 		(property "Reference" "SW43"
-			(at 233.68 102.362 0)
+			(at 251.46 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31971,7 +31991,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 233.68 101.6 0)
+			(at 251.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31980,7 +32000,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 233.68 106.68 0)
+			(at 251.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31989,7 +32009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 106.68 0)
+			(at 251.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31998,7 +32018,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 233.68 106.68 0)
+			(at 251.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32496,7 +32516,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 363.22 96.52 0)
+		(at 369.57 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32504,7 +32524,7 @@
 		(dnp no)
 		(uuid "db4d94c5-c410-4571-a549-c7d23e3bddd3")
 		(property "Reference" "SW19"
-			(at 363.22 92.202 0)
+			(at 369.57 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32512,7 +32532,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 363.22 91.44 0)
+			(at 369.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32521,7 +32541,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 363.22 96.52 0)
+			(at 369.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32530,7 +32550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 96.52 0)
+			(at 369.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32539,7 +32559,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 363.22 96.52 0)
+			(at 369.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32832,7 +32852,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 252.73 99.06 0)
+		(at 240.03 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32841,7 +32861,7 @@
 		(dnp no)
 		(uuid "e1f3b2c8-5302-4f44-b46e-5eef1f3a2d4a")
 		(property "Reference" "SW37"
-			(at 252.73 94.742 0)
+			(at 240.03 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32849,7 +32869,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 93.98 0)
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32858,7 +32878,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 252.73 99.06 0)
+			(at 240.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32867,7 +32887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 99.06 0)
+			(at 240.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32876,7 +32896,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 252.73 99.06 0)
+			(at 240.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33033,7 +33053,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 401.32 111.76 0)
+		(at 396.24 124.46 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33041,7 +33062,7 @@
 		(dnp no)
 		(uuid "e36aae4c-7700-4711-aa65-3ac129c73a9c")
 		(property "Reference" "SW31"
-			(at 401.32 107.442 0)
+			(at 396.24 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33049,7 +33070,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 401.32 106.68 0)
+			(at 396.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33058,7 +33079,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 401.32 111.76 0)
+			(at 396.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33067,7 +33088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 401.32 111.76 0)
+			(at 396.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33076,7 +33097,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 401.32 111.76 0)
+			(at 396.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33387,7 +33408,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 259.08 27.94 0)
+		(at 252.73 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33396,7 +33417,7 @@
 		(dnp no)
 		(uuid "e648bbe7-a7c9-44e7-b7ac-d7b19c0e61cf")
 		(property "Reference" "SW51"
-			(at 259.08 23.622 0)
+			(at 252.73 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33404,7 +33425,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 259.08 22.86 0)
+			(at 252.73 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33413,7 +33434,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 259.08 27.94 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33422,7 +33443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 27.94 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33431,7 +33452,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 259.08 27.94 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34492,7 +34513,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 226.06 124.46 180)
+		(at 232.41 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34500,7 +34521,7 @@
 		(dnp no)
 		(uuid "ef1f158f-8044-4154-b4d3-437f86119117")
 		(property "Reference" "SW46"
-			(at 226.06 128.778 0)
+			(at 232.41 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34508,7 +34529,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 226.06 129.54 0)
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34517,7 +34538,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 226.06 124.46 0)
+			(at 232.41 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34526,7 +34547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 124.46 0)
+			(at 232.41 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34535,7 +34556,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 226.06 124.46 0)
+			(at 232.41 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34759,7 +34780,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 232.41 127 180)
+		(at 245.11 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34767,7 +34788,7 @@
 		(dnp no)
 		(uuid "f2f58e66-9fae-4237-b1e5-efbad5de082a")
 		(property "Reference" "SW44"
-			(at 232.41 131.318 0)
+			(at 245.11 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34775,7 +34796,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 232.41 132.08 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34784,7 +34805,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 232.41 127 0)
+			(at 245.11 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34793,7 +34814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 127 0)
+			(at 245.11 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34802,7 +34823,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 232.41 127 0)
+			(at 245.11 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34894,7 +34915,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 383.54 129.54 0)
+		(at 364.49 137.16 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34903,7 +34924,7 @@
 		(dnp no)
 		(uuid "f4430a86-1507-42c8-8bd5-f41e46fb90ef")
 		(property "Reference" "SW26"
-			(at 383.54 133.858 0)
+			(at 364.49 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34911,7 +34932,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 383.54 134.62 0)
+			(at 364.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34920,7 +34941,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 383.54 129.54 0)
+			(at 364.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34929,7 +34950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 383.54 129.54 0)
+			(at 364.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34938,7 +34959,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 383.54 129.54 0)
+			(at 364.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35447,7 +35468,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 251.46 134.62 180)
+		(at 233.68 106.68 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35455,7 +35477,7 @@
 		(dnp no)
 		(uuid "fbf92be4-547b-495e-a864-fbd7bce154f9")
 		(property "Reference" "SW38"
-			(at 251.46 138.938 0)
+			(at 233.68 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35463,7 +35485,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 251.46 139.7 0)
+			(at 233.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35472,7 +35494,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 251.46 134.62 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35481,7 +35503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 134.62 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35490,7 +35512,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 251.46 134.62 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
