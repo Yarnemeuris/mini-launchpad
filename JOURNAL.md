@@ -50,8 +50,22 @@ There will be 4 buttons for moving, 1 for play/pause. 2 for switching between mi
 
 I also added an amplifier:
 
-<img width="277" height="411" alt="image" src="https://github.com/user-attachments/assets/1e329193-d3be-45f5-ab40-5b1a62241e04" />
+<img width="277" height="411" alt="amp" src="https://github.com/user-attachments/assets/1e329193-d3be-45f5-ab40-5b1a62241e04" />
 
 So that the line level output can be used to drive speakers or headphones. This was kind of complicated so I did a lot of research te previous days. That way there isn't a journal log, I just spent some time looking thinges up. first I thought I needed to create my own amp using a tranistor. But I found out that I can just use a chip for that. But because this seems likly to not work at all or perfectly, I will also add a pin header for the line output. The only things I think I still need is That and the connector for the DAC. Than the schematic should be done. I'm gonna ask if it is possible to review it, beacuse it's pretty complicated and I'm not sure I wired everything correctly.
 
 **Total time spent: 3h**
+
+# September 13th: Started on the pcb.
+
+I finally finished the schematic. So I started working on laying everything out on the pcb. I'm gonna make it a 4 layer pcb. I started with adding the buttons:
+
+<img width="509" height="576" alt="buttons" src="https://github.com/user-attachments/assets/7e5ebd27-4752-4e02-87bc-f6b5ea7f9100" />
+
+I wanted to space them out 20 mm. But I messed somthing up and now ther 22.857. I will probiably change this tomorrow. Aside from the buttons and encoders I didn't do much on the pcb. I started with the usb and power ut that still needs a lot of components. I should also make some of the capasitors larger. Because this does not look good for the power circuit:
+
+<img width="992" height="627" alt="small cap" src="https://github.com/user-attachments/assets/9ed5497f-c0cc-406e-add4-fbf64bb7fce9" />
+
+The last thing that I did today was update the README. So now there's finally something there.
+
+**Total time spent: 2h**
