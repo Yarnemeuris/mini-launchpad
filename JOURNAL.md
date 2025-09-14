@@ -62,10 +62,22 @@ I finally finished the schematic. So I started working on laying everything out 
 
 <img width="509" height="576" alt="buttons" src="https://github.com/user-attachments/assets/7e5ebd27-4752-4e02-87bc-f6b5ea7f9100" />
 
-I wanted to space them out 20 mm. But I messed somthing up and now ther 22.857. I will probiably change this tomorrow. Aside from the buttons and encoders I didn't do much on the pcb. I started with the usb and power ut that still needs a lot of components. I should also make some of the capasitors larger. Because this does not look good for the power circuit:
+I wanted to space them out 20 mm. But I messed somthing up and now they're 22.857. I will probiably change this tomorrow. Aside from the buttons and encoders I didn't do much on the pcb. I started with the usb and power ut that still needs a lot of components. I should also make some of the capasitors larger. Because this does not look good for the power circuit:
 
 <img width="992" height="627" alt="small cap" src="https://github.com/user-attachments/assets/9ed5497f-c0cc-406e-add4-fbf64bb7fce9" />
 
 The last thing that I did today was update the README. So now there's finally something there.
+
+**Total time spent: 2h**
+
+# September 14th: The pcb is almost finished.
+
+<img width="1087" height="781" alt="pcb" src="https://github.com/user-attachments/assets/c2196c0f-5f25-4d2d-8406-c00b18cfd9b8" />
+
+First I changed the buttons to be 20mm apart. It wasn't as bad as I though it would be. Then I connected the amp, the connector, usb hub. It just went pretty fast. So that now of the 952 pads, 242 nets there are only 20 unrouted connections. The only problem is the rp2040 chip.
+
+<img width="898" height="604" alt="rp2040 connections" src="https://github.com/user-attachments/assets/62160f9f-2393-4daa-9618-28791c362550" />
+
+It has so many connections and they are so close to together and everything has to be close to it. But there are only some gpio connections left, so it should not be too hard.
 
 **Total time spent: 2h**
