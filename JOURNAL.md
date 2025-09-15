@@ -81,3 +81,13 @@ First I changed the buttons to be 20mm apart. It wasn't as bad as I though it wo
 It has so many connections and they are so close to together and everything has to be close to it. But there are only some gpio connections left, so it should not be too hard.
 
 **Total time spent: 2h**
+
+# September 15th: Finished the pcb.
+
+This is the entire pcb:
+
+<img width="1148" height="855" alt="full pcb" src="https://github.com/user-attachments/assets/33d461a5-5d00-4190-8ef4-16e03884f7f8" />
+
+I connected the last pins, which were the hardest to connect. They were almost all on the rp2040 chip. I also switched the usb C connector, because I didn't like it's footprint. Probiably don't have to do much more on the pcb, just change a few components if jlc doesn't have these.
+
+**Total time spent: 1h**
