@@ -504,7 +504,7 @@
       "plot": "D:/downloads/gerbers/",
       "pos_files": "D:/downloads/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mini launchpad.step",
       "svg": "",
       "vrml": ""
     },

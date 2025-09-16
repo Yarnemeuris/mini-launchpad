@@ -8450,6 +8450,422 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RotaryEncoder_Switch_MP_1"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW72"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C202365"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_1_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
@@ -13939,6 +14355,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part" "C492407"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65f6669a-ca4d-4e2f-a16b-509d9e1a75d5")
 		)
@@ -13980,6 +14405,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "051d3737-03da-47ed-ae06-92adc8559c75")
 		(property "Reference" "SW47"
 			(at 226.06 128.778 0)
@@ -14096,6 +14522,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C97521"
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2a0083d9-28d6-4153-ac18-f4020c842f5e")
 		)
@@ -14124,92 +14559,6 @@
 			(project ""
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Audio:LM386")
-		(at 44.45 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07b77f55-f66c-4569-bc8d-8573b0ab269a")
-		(property "Reference" "U12"
-			(at 54.61 88.8298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM386"
-			(at 54.61 91.3698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "860b73c5-fa34-49b3-9f8b-1cd496bf8e1e")
-		)
-		(pin "3"
-			(uuid "02b09f04-d949-46d4-949d-2af5713e0bc5")
-		)
-		(pin "1"
-			(uuid "59129ee8-3fec-419c-a0f5-f24117c1c8cc")
-		)
-		(pin "8"
-			(uuid "107fdd23-27cb-4cf5-978f-ae0e8f0cce5c")
-		)
-		(pin "6"
-			(uuid "aa4c0088-c769-41b8-9d61-801fe4bbe811")
-		)
-		(pin "2"
-			(uuid "dee8d9a8-5020-4d9e-8a37-aefa7b36e059")
-		)
-		(pin "4"
-			(uuid "03c8fc0d-22d9-495c-ae0f-98b820a21e30")
-		)
-		(pin "5"
-			(uuid "bf8a104b-39aa-48c3-8e27-694abacf7f3b")
-		)
-		(instances
-			(project ""
-				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -14423,6 +14772,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0a94481d-e849-4fe8-8169-6fc6541a1a30")
 		(property "Reference" "SW40"
 			(at 220.98 107.442 0)
@@ -14832,6 +15182,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0f1ae3e0-3b61-47f1-a69d-57db72989833")
 		(property "Reference" "#PWR060"
 			(at 260.35 146.05 0)
@@ -14885,121 +15236,6 @@
 			(project "mini midi magic"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 254 186.69 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1090d9cb-457f-4942-9e1e-594ea74ddec3")
-		(property "Reference" "J5"
-			(at 254 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 254 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
-			(at 257.81 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 257.81 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 254 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "c36da18f-f76a-47e4-b558-e0ff351b2241")
-		)
-		(pin "B12"
-			(uuid "493ceae6-1a61-4298-a9be-5cc442f24ca8")
-		)
-		(pin "A1"
-			(uuid "fcd022b3-431f-4e22-9b00-99d5f4ae48a8")
-		)
-		(pin "A12"
-			(uuid "9f296c2b-97eb-43ba-a44c-c97cbc5efcf4")
-		)
-		(pin "B1"
-			(uuid "ac9c7883-0410-4075-b5fd-340e02660754")
-		)
-		(pin "B4"
-			(uuid "b25f5222-0276-4615-b217-8165de0500fe")
-		)
-		(pin "B9"
-			(uuid "fe8cad66-7130-430c-9bf7-abf202bd2e76")
-		)
-		(pin "A4"
-			(uuid "5005b321-1810-41b6-8270-262fa162706c")
-		)
-		(pin "A5"
-			(uuid "f20a2fc2-a26f-4405-ab7d-cc53b78fd8b9")
-		)
-		(pin "B5"
-			(uuid "bbbb0104-1a43-4201-8573-820f36e2483f")
-		)
-		(pin "A9"
-			(uuid "a18a61d0-401a-46e5-ada2-abaa3b19179b")
-		)
-		(pin "A7"
-			(uuid "a432c673-2eb9-437d-b8c3-ea742309afb7")
-		)
-		(pin "A8"
-			(uuid "3828346d-911b-49df-9631-30e83ff5b153")
-		)
-		(pin "B6"
-			(uuid "86249945-b57b-4e63-ad50-b9d3830f492c")
-		)
-		(pin "B7"
-			(uuid "ee7432d2-456d-4025-8a5e-839039308734")
-		)
-		(pin "B8"
-			(uuid "99df38c2-2f45-4351-b506-a66199569273")
-		)
-		(pin "A6"
-			(uuid "975ad621-d862-4ed9-8eaf-ba859da06aba")
-		)
-		(instances
-			(project ""
-				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15122,6 +15358,15 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
+			(at 284.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C639770"
 			(at 284.48 116.84 0)
 			(effects
 				(font
@@ -15503,6 +15748,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "14d9bae0-bbc5-4a11-9f1b-170e40aaa8a5")
 		(property "Reference" "SW69"
 			(at 123.444 220.98 0)
@@ -15541,6 +15787,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 144.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 129.54 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16111,6 +16366,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3646935"
+			(at 58.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a3a8fb71-2a33-41b0-821c-26ea2fc96163")
 		)
@@ -16202,6 +16466,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1d75fc6a-a797-4fc7-a2a4-83250c2e32ca")
 		(property "Reference" "SW39"
 			(at 227.33 104.902 0)
@@ -16720,6 +16985,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1521596"
+			(at 341.63 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "25"
 			(uuid "bde669c5-a6f7-42d7-ba28-5b414967ebd5")
 		)
@@ -16836,6 +17110,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "23cd21ad-b87d-484d-94fe-dc653234cca3")
 		(property "Reference" "#PWR062"
 			(at 254 143.51 0)
@@ -17340,6 +17615,15 @@
 			)
 		)
 		(property "Description" "USB HUB controller, UART, QSOP-16"
+			(at 293.37 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154405"
 			(at 293.37 189.23 0)
 			(effects
 				(font
@@ -18021,6 +18305,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3094c5ad-d704-4c5c-867c-70ae9af13d23")
 		(property "Reference" "#PWR068"
 			(at 234.95 135.89 0)
@@ -18472,6 +18757,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15127"
+			(at 30.48 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "318c80bb-b788-4b53-a608-70ba7dadfd54")
 		)
@@ -18808,6 +19102,15 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
+			(at 337.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C639770"
 			(at 337.82 116.84 0)
 			(effects
 				(font
@@ -19331,6 +19634,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3d0f3e8d-49b9-48c8-b3d3-bac4e9ea1d5c")
 		(property "Reference" "#PWR059"
 			(at 261.62 87.63 0)
@@ -20072,6 +20376,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "45844a47-ec5b-4951-9b5e-013748b731a7")
 		(property "Reference" "#PWR058"
 			(at 266.7 148.59 0)
@@ -20139,6 +20444,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "45a11f38-7759-4377-b33b-8e6245344db6")
 		(property "Reference" "SW70"
 			(at 136.906 161.29 0)
@@ -20177,6 +20483,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 130.81 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,6 +20643,15 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
+			(at 284.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C639770"
 			(at 284.48 48.26 0)
 			(effects
 				(font
@@ -20783,6 +21107,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4aed09e0-0824-447b-b039-54939eca1810")
 		(property "Reference" "SW73"
 			(at 194.056 161.29 0)
@@ -20821,6 +21146,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 172.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 187.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21200,6 +21534,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Audio:LM386")
+		(at 44.45 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7e82ef-68a8-460e-b049-31cae5df803a")
+		(property "Reference" "U15"
+			(at 54.61 88.8298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM386"
+			(at 54.61 91.3698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23573"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a20b281a-da59-444f-8cf8-71f7def9a782")
+		)
+		(pin "4"
+			(uuid "2c43e2e8-9757-45a3-ade1-9ca29b41ae70")
+		)
+		(pin "6"
+			(uuid "7d655b03-69c8-44ff-81e6-dbba75ff3ab2")
+		)
+		(pin "2"
+			(uuid "497276b5-8cee-4a74-a050-59bf60430ebf")
+		)
+		(pin "7"
+			(uuid "3831b63e-9831-4aa1-9f82-deceb6a34204")
+		)
+		(pin "8"
+			(uuid "0a7b81ec-57b6-433c-bc7e-242e54fb833e")
+		)
+		(pin "5"
+			(uuid "1bac4051-6d9f-4c2b-9163-4ede0df01cba")
+		)
+		(pin "1"
+			(uuid "e153e059-703a-445d-bab1-eb2d02074591")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 63.5 95.25 270)
 		(unit 1)
@@ -21378,6 +21807,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve"
+			(at 67.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4992816"
 			(at 67.31 118.11 0)
 			(effects
 				(font
@@ -22498,6 +22936,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5f3b960d-31fc-426c-8c2d-c87626613606")
 		(property "Reference" "#PWR066"
 			(at 241.3 138.43 0)
@@ -22631,6 +23070,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6187070d-fe36-4193-9239-e2cf53d87767")
 		(property "Reference" "SW45"
 			(at 238.76 133.858 0)
@@ -22766,6 +23206,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6401699c-a727-4504-8e1a-483cc9bbac32")
 		(property "Reference" "SW42"
 			(at 257.81 141.478 0)
@@ -22835,6 +23276,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "67c6e989-51ef-4416-961a-de0930a448be")
 		(property "Reference" "#PWR057"
 			(at 267.97 85.09 0)
@@ -22902,6 +23344,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "68075f57-9152-4ba4-856d-d1dd98a26c34")
 		(property "Reference" "#PWR071"
 			(at 223.52 102.87 0)
@@ -22969,6 +23412,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6960fed8-cd20-4cd6-83fd-35e40f1dfc68")
 		(property "Reference" "SW71"
 			(at 155.956 161.29 0)
@@ -23007,6 +23451,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23719,6 +24172,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6f3d2b11-7651-4922-b9b5-04589a4f11f9")
 		(property "Reference" "#PWR064"
 			(at 247.65 140.97 0)
@@ -23785,6 +24239,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6f97b271-ec42-4f1e-a051-eef398cca825")
 		(property "Reference" "#PWR072"
 			(at 222.25 130.81 0)
@@ -23987,6 +24442,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7142ce4f-9a71-460e-9d61-014283ebee76")
 		(property "Reference" "SW34"
 			(at 259.08 92.202 0)
@@ -24182,6 +24638,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 254 186.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7302444b-5765-49fc-8b25-edb1c146f915")
+		(property "Reference" "J5"
+			(at 254 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 254 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+			(at 257.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 257.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2988369"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A8"
+			(uuid "53dc6a26-ad3e-435c-b34d-946656c4d002")
+		)
+		(pin "A6"
+			(uuid "bc720a8d-8be8-4578-8554-29ed83ae9428")
+		)
+		(pin "B8"
+			(uuid "4d0adf8f-424c-4f18-949f-68482ed71037")
+		)
+		(pin "B7"
+			(uuid "6298f10a-b811-499a-9885-b2db7cb251c9")
+		)
+		(pin "B6"
+			(uuid "3b906d6e-5917-4554-ba7a-f4cd64291881")
+		)
+		(pin "A12"
+			(uuid "8c604474-48a1-498e-a78c-8367659cc93c")
+		)
+		(pin "A4"
+			(uuid "956caa41-ac5b-42e5-b9e3-259bddec9ccd")
+		)
+		(pin "A7"
+			(uuid "2eb8593f-854a-4432-8f79-05de0c53a06d")
+		)
+		(pin "B9"
+			(uuid "cc212d1a-13bb-48ef-a8d9-dc30fc47c8ef")
+		)
+		(pin "B1"
+			(uuid "d35af88c-3496-4a0f-9bcb-2ba9e656a98c")
+		)
+		(pin "S1"
+			(uuid "44613287-3d64-426e-85db-0642c2af945b")
+		)
+		(pin "A9"
+			(uuid "db93ac0d-3380-42e9-9406-d4d099f4e10a")
+		)
+		(pin "B4"
+			(uuid "3bbdf3ba-cacc-4e61-9633-6d7c50f40496")
+		)
+		(pin "B5"
+			(uuid "a89d5105-087a-4530-9330-8fd6063e8161")
+		)
+		(pin "A1"
+			(uuid "707ba2aa-e2d7-40ca-a97a-12cfd1561e06")
+		)
+		(pin "B12"
+			(uuid "cf5ccd3f-4cfc-4f2a-b7c5-893cad166222")
+		)
+		(pin "A5"
+			(uuid "e0202014-f94d-41d5-8501-707c98785def")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 401.32 111.76 0)
 		(unit 1)
@@ -24258,6 +24838,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "73b39f74-3730-4e47-bbef-360cc36889df")
 		(property "Reference" "SW35"
 			(at 252.73 94.742 0)
@@ -24393,6 +24974,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "74309c41-82ec-4572-9089-1f1e9ea392e3")
 		(property "Reference" "#PWR063"
 			(at 248.92 92.71 0)
@@ -24909,6 +25491,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2040"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "47"
 			(uuid "5dd83d9b-b005-4831-8834-72693b4b8625")
 		)
@@ -25236,6 +25827,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7b8dc0d3-051d-4e12-82dc-74b96c1df8b0")
 		(property "Reference" "SW68"
 			(at 142.494 220.98 0)
@@ -25274,6 +25866,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 163.83 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 148.59 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25562,7 +26163,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9002"
+		(property "LCSC Part" "C9002"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -26580,6 +27181,15 @@
 		)
 		(property "Description" "Low Capacitance and low resistance 2Ω, 4-Channel, 2:1 Switch, Powered-off Protection with 1.8V logic, 1.5 - 5.5V, TSSOP-16"
 			(at 384.81 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2673443"
+			(at 384.81 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27662,6 +28272,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3646935"
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13ba2b1e-0ef1-4937-a6c9-d7f19ae7f069")
 		)
@@ -27739,93 +28358,6 @@
 			(project ""
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Audio:LM386")
-		(at 44.45 148.59 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c87f145-8daf-4042-a919-e1abcabb3d71")
-		(property "Reference" "U13"
-			(at 54.61 155.0102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM386"
-			(at 54.61 152.4702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 46.99 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
-			(at 49.53 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "b4d49472-21d5-47af-8ccd-854c4895a2fe")
-		)
-		(pin "3"
-			(uuid "b37d6bd2-416e-4a5c-981d-e0b27fe74d6e")
-		)
-		(pin "1"
-			(uuid "aac0db74-d43c-45e9-bbd0-8572fbe4926e")
-		)
-		(pin "8"
-			(uuid "72efcf31-c565-4172-b85d-4c7ca004f06b")
-		)
-		(pin "6"
-			(uuid "8b12c835-d95b-4876-8b50-4acb8cd760ba")
-		)
-		(pin "2"
-			(uuid "31837e15-3dea-42b5-909d-1ba2c633c06d")
-		)
-		(pin "4"
-			(uuid "19489904-fd52-441e-8d84-2dc4ecbd8493")
-		)
-		(pin "5"
-			(uuid "56769c7e-46c5-42e5-a1a5-75592691ab88")
-		)
-		(instances
-			(project "mini launchpad"
-				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -28352,6 +28884,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5383115"
 			(at 53.34 182.88 0)
 			(effects
 				(font
@@ -29451,6 +29992,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C639770"
+			(at 214.63 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dfc716a5-db8c-467b-898a-3558717c8301")
 		)
@@ -29877,6 +30427,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3664594"
+			(at 269.24 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fbda0f5-4d5d-4a8c-b4c1-dea8c6c5f259")
 		)
@@ -30172,6 +30731,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RotaryEncoder_Switch_MP_1")
 		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 168.91 161.29 270)
 		(mirror x)
@@ -30180,6 +30740,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b963d9c7-384f-4e50-b9b2-75e37fa3c413")
 		(property "Reference" "SW72"
 			(at 175.006 161.29 0)
@@ -30225,6 +30786,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C202365"
+			(at 168.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "d0be87e0-aaaf-444e-be28-02afc81b3406")
 		)
@@ -30261,6 +30831,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ba48082f-8d9b-47e1-b5e0-a6555e4ee513")
 		(property "Reference" "SW66"
 			(at 180.594 220.98 0)
@@ -30299,6 +30870,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 201.93 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 186.69 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30678,6 +31258,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bfe27fb2-5257-4bf7-b206-3386ab008a05")
 		(property "Reference" "SW41"
 			(at 264.16 144.018 0)
@@ -31351,6 +31932,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4b2c021-3c19-4ae0-a8aa-63ffe313ec30")
 		(property "Reference" "SW48"
 			(at 219.71 126.238 0)
@@ -31827,6 +32409,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ca79d4b8-f013-4435-a778-a27d0ff4fcaa")
 		(property "Reference" "#PWR067"
 			(at 236.22 97.79 0)
@@ -32096,6 +32679,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cb4a2abf-9b68-419f-a04e-c988c97d287d")
 		(property "Reference" "SW36"
 			(at 246.38 97.282 0)
@@ -32234,6 +32818,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cf04cabf-c816-45b0-b4ca-0bc1e8092f9d")
 		(property "Reference" "#PWR069"
 			(at 229.87 100.33 0)
@@ -32369,6 +32954,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d213f37c-74c6-4c49-bcf6-29fc2010d850")
 		(property "Reference" "SW67"
 			(at 161.544 220.98 0)
@@ -32407,6 +32993,15 @@
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 			(at 182.88 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C202365"
+			(at 167.64 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32516,6 +33111,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d379caf3-f0fd-46fe-882c-83130f5c71a8")
 		(property "Reference" "#PWR065"
 			(at 242.57 95.25 0)
@@ -32718,6 +33314,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d422d0a7-6859-408f-8d9e-403984314ea2")
 		(property "Reference" "SW43"
 			(at 251.46 138.938 0)
@@ -33238,6 +33835,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C42431827"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a14d338e-c918-448a-9a63-a9f53f72b313")
 		)
@@ -33664,6 +34270,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e1f3b2c8-5302-4f44-b46e-5eef1f3a2d4a")
 		(property "Reference" "SW37"
 			(at 240.03 99.822 0)
@@ -33974,6 +34581,15 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
+			(at 337.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C639770"
 			(at 337.82 48.26 0)
 			(effects
 				(font
@@ -34739,6 +35355,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C470285"
+			(at 46.99 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e3bd22cf-f838-4928-a459-cc998e0226c7")
 		)
@@ -34841,6 +35466,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eb835e02-e115-4fe0-888b-7b1b3d7b7220")
 		(property "Reference" "#PWR061"
 			(at 255.27 90.17 0)
@@ -35165,6 +35791,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C154606"
+			(at 384.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6263c434-1881-4d07-a94b-c0e66ddd74b4")
 		)
@@ -35324,6 +35959,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ef1f158f-8044-4154-b4d3-437f86119117")
 		(property "Reference" "SW46"
 			(at 232.41 131.318 0)
@@ -35591,6 +36227,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f2f58e66-9fae-4237-b1e5-efbad5de082a")
 		(property "Reference" "SW44"
 			(at 245.11 136.398 0)
@@ -35929,6 +36566,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f7fab8fc-d28f-45c4-937a-8a308ec72b93")
 		(property "Reference" "SW33"
 			(at 265.43 89.662 0)
@@ -36053,6 +36691,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3646935"
+			(at 49.53 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f602f6fd-30fa-4196-99c6-25400848d563")
 		)
@@ -36076,6 +36723,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f9191834-96d9-4899-922d-84e91cfe27cf")
 		(property "Reference" "#PWR070"
 			(at 228.6 133.35 0)
@@ -36346,6 +36994,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fbf92be4-547b-495e-a864-fbd7bce154f9")
 		(property "Reference" "SW38"
 			(at 233.68 102.362 0)
@@ -36468,6 +37117,102 @@
 			(project "mini launchpad"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:LM386")
+		(at 44.45 148.59 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd84f0ea-88d9-40ad-a4cb-c4a60eca6012")
+		(property "Reference" "U14"
+			(at 54.61 155.0102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM386"
+			(at 54.61 152.4702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 46.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
+			(at 49.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23573"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a20b281a-da59-444f-8cf8-71f7def9a782")
+		)
+		(pin "4"
+			(uuid "2c43e2e8-9757-45a3-ade1-9ca29b41ae70")
+		)
+		(pin "6"
+			(uuid "7d655b03-69c8-44ff-81e6-dbba75ff3ab2")
+		)
+		(pin "2"
+			(uuid "497276b5-8cee-4a74-a050-59bf60430ebf")
+		)
+		(pin "7"
+			(uuid "3831b63e-9831-4aa1-9f82-deceb6a34204")
+		)
+		(pin "8"
+			(uuid "0a7b81ec-57b6-433c-bc7e-242e54fb833e")
+		)
+		(pin "5"
+			(uuid "1bac4051-6d9f-4c2b-9163-4ede0df01cba")
+		)
+		(pin "1"
+			(uuid "e153e059-703a-445d-bab1-eb2d02074591")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "U14")
 					(unit 1)
 				)
 			)
