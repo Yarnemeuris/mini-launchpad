@@ -91,3 +91,9 @@ This is the entire pcb:
 I connected the last pins, which were the hardest to connect. They were almost all on the rp2040 chip. I also switched the usb C connector, because I didn't like it's footprint. Probiably don't have to do much more on the pcb, just change a few components if jlc doesn't have these.
 
 **Total time spent: 1h**
+
+# September 16th: Added lcsc part numbers.
+
+ I started adding lcsc part numbers to every component. Just to make sure jlcpcb uses the same part. But because this is all inside the fields, I can't really show a picture.
+
+ **Total time spent: 0.5h**
