@@ -21,6 +21,6 @@ For audio there is a PCM5100 I²S DAC. This will convert the digital audio to a 
 The current progress.
 
 - [x] Design the schematic.
-- [ ] Design the pcb.
+- [x] Design the pcb.
 - [ ] Design the case.
 - [ ] Write the firmware.
