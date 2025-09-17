@@ -97,3 +97,14 @@ I connected the last pins, which were the hardest to connect. They were almost a
  I started adding lcsc part numbers to every component. Just to make sure jlcpcb uses the same part. But because this is all inside the fields, I can't really show a picture.
 
  **Total time spent: 0.5h**
+
+#September 17th: Finished the pcb.
+
+I finally finished the pcb.
+
+<img width="1724" height="930" alt="pcb" src="https://github.com/user-attachments/assets/982d3d03-8f9a-4941-bdd6-4ddf489528b8" />
+
+I added all the LCSC Part numbers. I check if everything worked on jlcpcb, there are some issues but you can set every part in jlcpcb. I did see that the price for the board is like $200 so I might change some things. The things you have to change when ordering are: some components aren't found in jlcpcb library or some other problems with the bom and because jlcpcb does the rotation diffrently you have to rotate most components in the viewer.
+Today I also started on the cad but it isn't much yet.
+
+**Total time spent: 2h**
