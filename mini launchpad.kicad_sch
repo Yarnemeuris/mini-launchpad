@@ -8084,6 +8084,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10269,6 +10376,18 @@
 		(uuid 570e78a0-e704-4357-acfc-a97365afb0f1)
 	)
 	(rectangle
+		(start 13.97 210.82)
+		(end 74.93 229.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7aea2ec1-9525-431e-aaca-743efd7a546f)
+	)
+	(rectangle
 		(start 76.2 12.7)
 		(end 214.63 135.89)
 		(stroke
@@ -10363,6 +10482,16 @@
 			)
 		)
 		(uuid "45ed273f-c9b2-4ffa-be1d-ff4021a59c36")
+	)
+	(text "mounting"
+		(exclude_from_sim no)
+		(at 44.704 212.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a70eba9-a511-4f24-a6e5-3fa2ebe360a5")
 	)
 	(text "DAC"
 		(exclude_from_sim no)
@@ -14285,6 +14414,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C476766"
+			(at 120.65 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33f6824d-dc90-48d8-b767-5784292450cb")
 		)
@@ -15591,6 +15729,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C476766"
+			(at 107.95 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc4b1834-d35b-436b-ad62-cc2d990afbb7")
 		)
@@ -16217,6 +16364,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C476766"
+			(at 172.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81bdc571-e247-4274-bfa6-43ee95ac44c4")
 		)
@@ -16279,6 +16435,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15850"
 			(at 48.26 156.21 0)
 			(effects
 				(font
@@ -16573,6 +16738,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C476766"
 			(at 92.71 53.34 0)
 			(effects
 				(font
@@ -16908,6 +17082,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C138021"
+			(at 113.03 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17562,6 +17745,72 @@
 			(project "mini launchpad"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "274283a4-ca0b-4bc9-a600-c8ce52fc5f7d")
+		(property "Reference" "#PWR0182"
+			(at 33.02 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba0308f-d7b8-4645-ab09-5260e1a648a9")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -18552,6 +18801,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C112291"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "763b2178-0341-4404-88b7-96ac05b59b7e")
 		)
@@ -19243,7 +19501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 59.69 149.5552 0)
 			(effects
 				(font
@@ -19262,6 +19520,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C412252"
 			(at 55.88 148.59 0)
 			(effects
 				(font
@@ -19398,6 +19665,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C476766"
 			(at 185.42 27.94 0)
 			(effects
 				(font
@@ -19712,7 +19988,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.05µF"
+		(property "Value" "50nF"
 			(at 54.864 142.494 0)
 			(effects
 				(font
@@ -19740,6 +20016,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107154"
 			(at 52.07 144.78 0)
 			(effects
 				(font
@@ -19941,6 +20226,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C112291"
 			(at 67.31 58.42 0)
 			(effects
 				(font
@@ -21083,6 +21377,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 48.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "437c603d-6063-4a70-a41d-c7b5894c98cf")
 		)
@@ -21374,7 +21677,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC" "C1804"
 			(at 92.71 95.25 0)
 			(effects
 				(font
@@ -21681,6 +21984,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C106232"
+			(at 63.5 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b852da0-5da3-4688-9aca-b9287277dff3")
 		)
@@ -21840,6 +22152,74 @@
 			(project ""
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 33.02 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52919b9e-f9b7-4e83-a91f-d37cfd2bca45")
+		(property "Reference" "H1"
+			(at 35.56 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 35.56 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 33.02 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 33.02 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72740421-11d9-4a6c-afa3-a2a029d87d93")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -22033,6 +22413,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 373.38 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00c555a9-424b-4aeb-b59b-160fdd07715a")
 		)
@@ -22094,6 +22483,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C476766"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -22375,6 +22773,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C28323"
+			(at 130.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0d06f2c-40e1-4b9b-a167-684775cdca12")
 		)
@@ -22549,7 +22956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 59.69 94.2848 0)
 			(effects
 				(font
@@ -22568,6 +22975,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 55.88 95.25 0)
 			(effects
 				(font
@@ -22638,6 +23054,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 52.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C138066"
 			(at 52.07 137.16 0)
 			(effects
 				(font
@@ -22997,6 +23422,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 40.64 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f473e8d-51e8-40e8-b720-96f55043ac4b")
+		(property "Reference" "#PWR0181"
+			(at 40.64 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba0308f-d7b8-4645-ab09-5260e1a648a9")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 400.05 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -23262,6 +23753,74 @@
 			(project "mini midi magic"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 55.88 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6675d519-600c-41dc-8328-6fcc12dca372")
+		(property "Reference" "H4"
+			(at 58.42 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 58.42 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 55.88 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 55.88 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7441227c-ef3f-430e-9882-5af5ccfc6d48")
+		)
+		(instances
+			(project "mini launchpad"
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -24352,6 +24911,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C138066"
+			(at 52.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46c63069-e61d-4a68-988c-5d4e65bb1fbc")
 		)
@@ -25079,6 +25647,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 63.5 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106232"
+			(at 63.5 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25819,6 +26396,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3cd0b6-471e-4baf-ade7-0b99d296f53b")
+		(property "Reference" "#PWR098"
+			(at 55.88 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba0308f-d7b8-4645-ab09-5260e1a648a9")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 148.59 220.98 90)
 		(mirror x)
@@ -26527,6 +27170,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 48.26 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b5ea04-10d2-41fc-812c-f989c1fae63b")
+		(property "Reference" "#PWR099"
+			(at 48.26 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba0308f-d7b8-4645-ab09-5260e1a648a9")
+		)
+		(instances
+			(project ""
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 355.6 73.66 0)
 		(mirror y)
 		(unit 1)
@@ -26843,6 +27552,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C105872"
+			(at 273.05 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad2e503b-9fd6-4124-a56a-2d5422e50f12")
 		)
@@ -26904,6 +27622,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C138021"
+			(at 113.03 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27043,7 +27770,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC" "C1804"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -27308,6 +28035,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C476766"
+			(at 160.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "785e4f4f-2122-4c77-bb07-9273ac2872f5")
 		)
@@ -27513,6 +28249,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 44.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97f24058-563c-4595-994b-eb8990f0f60f")
 		)
@@ -27546,7 +28291,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.05µF"
+		(property "Value" "50nF"
 			(at 54.864 101.346 0)
 			(effects
 				(font
@@ -27574,6 +28319,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107154"
 			(at 52.07 99.06 0)
 			(effects
 				(font
@@ -27651,6 +28405,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C476766"
+			(at 198.12 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "caf7224b-c9d3-47dd-b3a4-b20085efe684")
 		)
@@ -27712,6 +28475,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 273.05 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105872"
+			(at 273.05 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29799,6 +30571,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 40.64 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af88c225-116f-4364-bde6-c4bfbbdc0895")
+		(property "Reference" "H2"
+			(at 43.18 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 43.18 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 40.64 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 40.64 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0318443c-3c72-4e7c-9f5d-44a8bb31b199")
+		)
+		(instances
+			(project "mini launchpad"
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 163.83 0)
 		(mirror x)
@@ -30427,7 +31267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3664594"
+		(property "LCSC Part" "C2848873"
 			(at 269.24 207.01 90)
 			(effects
 				(font
@@ -30641,6 +31481,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
 			(at 160.02 35.56 0)
 			(effects
 				(font
@@ -33629,6 +34478,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C476766"
+			(at 210.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9da8443-a7c6-4e6a-ba98-6e5afc2ee096")
 		)
@@ -33759,6 +34617,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 198.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C476766"
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -34114,6 +34981,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a7f1d20-0d71-4da1-8c7d-6338a13eebc2")
 		)
@@ -34190,6 +35066,74 @@
 			(project "mini midi magic"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 48.26 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0ef3a7-79b6-4d36-aa30-a0c11934b6b9")
+		(property "Reference" "H3"
+			(at 50.8 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 50.8 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
+			(at 48.26 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 48.26 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c2eee2d-940d-42e8-b56c-f8344671bce5")
+		)
+		(instances
+			(project "mini launchpad"
+				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -35149,6 +36093,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 392.43 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "302a4228-4ce2-433d-ad46-a28f57105e8b")
 		)
@@ -35211,6 +36164,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C112291"
 			(at 58.42 58.42 0)
 			(effects
 				(font
@@ -37107,6 +38069,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C11702"
+			(at 100.33 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c974574-4add-4813-89df-797c8950bcba")
 		)
@@ -37186,28 +38157,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "a20b281a-da59-444f-8cf8-71f7def9a782")
+			(uuid "a20b281a-da59-444f-8cf8-71f7def9a783")
 		)
 		(pin "4"
-			(uuid "2c43e2e8-9757-45a3-ade1-9ca29b41ae70")
+			(uuid "2c43e2e8-9757-45a3-ade1-9ca29b41ae71")
 		)
 		(pin "6"
-			(uuid "7d655b03-69c8-44ff-81e6-dbba75ff3ab2")
+			(uuid "7d655b03-69c8-44ff-81e6-dbba75ff3ab3")
 		)
 		(pin "2"
-			(uuid "497276b5-8cee-4a74-a050-59bf60430ebf")
+			(uuid "497276b5-8cee-4a74-a050-59bf60430ec0")
 		)
 		(pin "7"
-			(uuid "3831b63e-9831-4aa1-9f82-deceb6a34204")
+			(uuid "3831b63e-9831-4aa1-9f82-deceb6a34205")
 		)
 		(pin "8"
-			(uuid "0a7b81ec-57b6-433c-bc7e-242e54fb833e")
+			(uuid "0a7b81ec-57b6-433c-bc7e-242e54fb833f")
 		)
 		(pin "5"
-			(uuid "1bac4051-6d9f-4c2b-9163-4ede0df01cba")
+			(uuid "1bac4051-6d9f-4c2b-9163-4ede0df01cbb")
 		)
 		(pin "1"
-			(uuid "e153e059-703a-445d-bab1-eb2d02074591")
+			(uuid "e153e059-703a-445d-bab1-eb2d02074592")
 		)
 		(instances
 			(project ""
