@@ -108,3 +108,11 @@ I added all the LCSC Part numbers. I check if everything worked on jlcpcb, there
 Today I also started on the cad but it isn't much yet.
 
 **Total time spent: 2h**
+
+#September 18th: Started designing the cad.
+
+<img width="1359" height="779" alt="image" src="https://github.com/user-attachments/assets/cb70c6ca-e9bd-4e3b-af06-c3067e708cf7" />
+
+This is what I designed so far. It's mostly just the buttons, encoders and a the audio port. It also includes some mounting internally with M3 bolts and inserts. I will probably change the pcb to make it smaller, because right now the case doesn't fit on my printers bed.
+
+**Total time spent: 1h**
