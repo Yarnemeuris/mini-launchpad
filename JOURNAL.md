@@ -116,3 +116,13 @@ Today I also started on the cad but it isn't much yet.
 This is what I designed so far. It's mostly just the buttons, encoders and a the audio port. It also includes some mounting internally with M3 bolts and inserts. I will probably change the pcb to make it smaller, because right now the case doesn't fit on my printers bed.
 
 **Total time spent: 1h**
+
+#September 20th: Changed the pcb again.
+
+So with the case around the pcb it doesn't fit on my printers build plate. So of course the best thing to do is redisgn the hole pcb to be smaller. So every surface mount component is now placed on the back, still just one side to assamble but the opposite side. This way the pcb can be smaller but you just have to solder every thing on the other side manually. The final resualt:
+
+<img width="1014" height="853" alt="smaller pcb" src="https://github.com/user-attachments/assets/7d8b44db-c21f-4c50-b098-9f3fb2d2043a" />
+
+It is just 180mmx206mm. So with 6mm either side for the case, it still fits on my printer. The final connections I will do tomorrow.
+
+**Total time spent: 1.5h**
