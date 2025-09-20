@@ -231,7 +231,20 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "name": "bottem",
+        "topLayer": 6
+      },
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "name": "top",
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
