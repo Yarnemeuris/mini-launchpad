@@ -16494,7 +16494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 58.42 50.8 0)
 			(effects
 				(font
@@ -16530,7 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3646935"
+		(property "LCSC Part" "C3028820"
 			(at 58.42 50.8 90)
 			(effects
 				(font
@@ -22983,7 +22983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C412252"
 			(at 55.88 95.25 0)
 			(effects
 				(font
@@ -29013,7 +29013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 67.31 50.8 0)
 			(effects
 				(font
@@ -29049,7 +29049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3646935"
+		(property "LCSC Part" "C3028820"
 			(at 67.31 50.8 90)
 			(effects
 				(font
@@ -37622,7 +37622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 49.53 50.8 0)
 			(effects
 				(font
@@ -37658,7 +37658,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3646935"
+		(property "LCSC Part" "C3028820"
 			(at 49.53 50.8 90)
 			(effects
 				(font
