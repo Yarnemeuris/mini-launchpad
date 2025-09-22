@@ -140,3 +140,11 @@ I also worked a bit on the case. It now looks like this:
 It is almost finished too. Just the volume, some ports and maybe some more dacals. Thise I will also print myself. I will just say to thhe slicer that it has multipul toolheads and the change gcoe is just a color change. So this is actually almost finished. I just hope that I will finish before the end of SoM. Because I don't know what will happend if it's not shipped by the end. JLCPCB says it will be $174 for the board. But I will still have to order some more copmonents that I have to solder on myself. It is all the top components so buttons, encoders, things like that. Tommorow I will probably finish the case and can start on the firmware.
 
 **Total time spent: 3h**
+
+#September 22th: Finished the pcb again.
+
+Today I just removed the top and moved the potentiometer to the center. The pcb should actually be finished now.
+
+<img width="632" height="588" alt="hopfully final pcb change" src="https://github.com/user-attachments/assets/1bab8135-b94f-4969-be56-89cb1fc7505c" />
+
+**Total time spent: 0.5h**
