@@ -12839,28 +12839,6 @@
 			)
 		)
 	)
-	(global_label "GPIO19"
-		(shape input)
-		(at 167.64 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "262fa491-ce1b-4edb-b73b-b73b6df73090")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5195 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO17"
 		(shape input)
 		(at 167.64 87.63 0)
@@ -13886,28 +13864,6 @@
 		(uuid "ccddb4c7-2eb8-4d5f-b81f-6b2abfec7a66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.78 40.3595 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO19"
-		(shape input)
-		(at 68.58 30.48 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ccddb4c7-2eb8-4d5f-b81f-6b2abfec7a67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 40.3595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17614,72 +17570,6 @@
 			(project "mini midi magic"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 68.58 20.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "269c4984-0faf-428a-b6e5-7d010605fd71")
-		(property "Reference" "#PWR0159"
-			(at 68.58 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fd01a1a-9bdf-4410-ae13-01cdcb4fa0ed")
-		)
-		(instances
-			(project "mini launchpad"
-				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
-					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -30707,76 +30597,6 @@
 			(project "mini launchpad"
 				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
 					(reference "#PWR0180")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b122db41-d66c-4cbd-8758-45f50ac618b6")
-		(property "Reference" "SW83"
-			(at 69.342 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 67.31 24.1301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "856f00d6-0604-4beb-8a75-adffbdfe4dba")
-		)
-		(pin "1"
-			(uuid "acc662e3-aa75-46e4-8e4a-6e967bc44e7b")
-		)
-		(instances
-			(project "mini launchpad"
-				(path "/53b873fe-fce8-4274-bbb6-cd8ec25e3130"
-					(reference "SW83")
 					(unit 1)
 				)
 			)
