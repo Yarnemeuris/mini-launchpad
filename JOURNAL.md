@@ -148,3 +148,11 @@ Today I just removed the top and moved the potentiometer to the center. The pcb 
 <img width="632" height="588" alt="hopfully final pcb change" src="https://github.com/user-attachments/assets/1bab8135-b94f-4969-be56-89cb1fc7505c" />
 
 **Total time spent: 0.5h**
+
+#September 23th: I think I finished the cad.
+
+A lot of the cad work was already done before this. The only things I did was add the power switch, usb-c port and knob at the top. The usb-c port and knob are geussed and I will probably move and change these when I have the actually pcb.
+
+<img width="1423" height="818" alt="case" src="https://github.com/user-attachments/assets/6478afc5-b0af-4a4a-a2ee-6dd0da527859" />
+
+**Total time spent: 0.5h**
