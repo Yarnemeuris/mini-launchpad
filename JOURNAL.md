@@ -156,3 +156,9 @@ A lot of the cad work was already done before this. The only things I did was ad
 <img width="1423" height="818" alt="case" src="https://github.com/user-attachments/assets/6478afc5-b0af-4a4a-a2ee-6dd0da527859" />
 
 **Total time spent: 0.5h**
+
+#September 24th: Oh no problems again.
+
+So I did some minor adjustments to the cad and then wanted to start on the firmware. So I moved the pcb files to a diffrent folder. But then the c sdk setup. I tried using the vs code plugin, but thzt gave me errors and I can't place it in a subfolder. So I either get a new hackatime project, which I don't want. Or I can't use the plugin. It is so bad, I might use python. I am not even sure which I will use now. But I don't think micropython even worked. I won't include pictures today because I don't really have anything to show. But I will ask how to set something up and commit the pcb files moved into a diffrent folder.
+
+**Total time spent: 1h**
