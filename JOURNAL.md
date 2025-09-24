@@ -98,7 +98,7 @@ I connected the last pins, which were the hardest to connect. They were almost a
 
  **Total time spent: 0.5h**
 
-#September 17th: Finished the pcb.
+# September 17th: Finished the pcb.
 
 I finally finished the pcb.
 
@@ -109,7 +109,7 @@ Today I also started on the cad but it isn't much yet.
 
 **Total time spent: 2h**
 
-#September 18th: Started designing the cad.
+# September 18th: Started designing the cad.
 
 <img width="1359" height="779" alt="image" src="https://github.com/user-attachments/assets/cb70c6ca-e9bd-4e3b-af06-c3067e708cf7" />
 
@@ -117,7 +117,7 @@ This is what I designed so far. It's mostly just the buttons, encoders and a the
 
 **Total time spent: 1h**
 
-#September 20th: Changed the pcb again.
+# September 20th: Changed the pcb again.
 
 So with the case around the pcb it doesn't fit on my printers build plate. So of course the best thing to do is redisgn the hole pcb to be smaller. So every surface mount component is now placed on the back, still just one side to assamble but the opposite side. This way the pcb can be smaller but you just have to solder every thing on the other side manually. The final resualt:
 
@@ -127,7 +127,7 @@ It is just 180mmx206mm. So with 6mm either side for the case, it still fits on m
 
 **Total time spent: 1.5h**
 
-#September 21th: Finished the pcb.
+# September 21th: Finished the pcb.
 
 Today I think I finally finished the pcb. Theonly thing I think I might change is removing a button. It now looks like this:
 
@@ -141,7 +141,7 @@ It is almost finished too. Just the volume, some ports and maybe some more dacal
 
 **Total time spent: 3h**
 
-#September 22th: Finished the pcb again.
+# September 22th: Finished the pcb again.
 
 Today I just removed the top and moved the potentiometer to the center. The pcb should actually be finished now.
 
@@ -149,7 +149,7 @@ Today I just removed the top and moved the potentiometer to the center. The pcb 
 
 **Total time spent: 0.5h**
 
-#September 23th: I think I finished the cad.
+# September 23th: I think I finished the cad.
 
 A lot of the cad work was already done before this. The only things I did was add the power switch, usb-c port and knob at the top. The usb-c port and knob are geussed and I will probably move and change these when I have the actually pcb.
 
@@ -157,7 +157,7 @@ A lot of the cad work was already done before this. The only things I did was ad
 
 **Total time spent: 0.5h**
 
-#September 24th: Oh no problems again.
+# September 24th: Oh no problems again.
 
 So I did some minor adjustments to the cad and then wanted to start on the firmware. So I moved the pcb files to a diffrent folder. But then the c sdk setup. I tried using the vs code plugin, but thzt gave me errors and I can't place it in a subfolder. So I either get a new hackatime project, which I don't want. Or I can't use the plugin. It is so bad, I might use python. I am not even sure which I will use now. But I don't think micropython even worked. I won't include pictures today because I don't really have anything to show. But I will ask how to set something up and commit the pcb files moved into a diffrent folder.
 
