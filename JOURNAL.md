@@ -162,3 +162,13 @@ A lot of the cad work was already done before this. The only things I did was ad
 So I did some minor adjustments to the cad and then wanted to start on the firmware. So I moved the pcb files to a diffrent folder. But then the c sdk setup. I tried using the vs code plugin, but thzt gave me errors and I can't place it in a subfolder. So I either get a new hackatime project, which I don't want. Or I can't use the plugin. It is so bad, I might use python. I am not even sure which I will use now. But I don't think micropython even worked. I won't include pictures today because I don't really have anything to show. But I will ask how to set something up and commit the pcb files moved into a diffrent folder.
 
 **Total time spent: 1h**
+
+# September 25th: Started working on the firmware.
+
+I chose to use micropython because C just didn't work even though I wanted to use it more. Currently all I did was setup the io expanders via i²c and set some pins.
+
+<img width="658" height="631" alt="first code" src="https://github.com/user-attachments/assets/fd055def-3277-4b06-ba4a-86e87d5c22e1" />
+
+But just setting up the io expanders I had to read a lot of the datasheet to try to understand it. I would have done more today but had to learn a lot of things on maps for school.
+
+**Total time spent: 1h**
