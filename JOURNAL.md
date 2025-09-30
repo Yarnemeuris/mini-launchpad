@@ -172,3 +172,11 @@ I chose to use micropython because C just didn't work even though I wanted to us
 But just setting up the io expanders I had to read a lot of the datasheet to try to understand it. I would have done more today but had to learn a lot of things on maps for school.
 
 **Total time spent: 1h**
+
+# September 30th: Made some basic code.
+
+I kind of forgot to journal the previous days. So to todays time I will add 2 hours. That is how long hackatime says I spent working on it for those days. But the first code is complete. I speedran this to try and get a ship before the end of SoM. Just as I was wrighting the devlog there was an announcment to say that we have time until October 2th. So I will spent some more time making it better until then. Currently you can only send notes to a computer and have it play them. The next things I will add are diffrent layouts for the notes and producing audio via the dac. This is the code I have for now:
+
+<img width="539" height="936" alt="code" src="https://github.com/user-attachments/assets/44dec570-ed38-490e-beb1-cd3642bf57bb" />
+
+**Total time spent: 3h**
