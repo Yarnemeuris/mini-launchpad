@@ -21,8 +21,11 @@ For audio there is a PCM5100 I²S DAC. This will convert the digital audio to a 
 Actually playing notes is a big part of the luanchpad. There are 2 ways to do this.
 - Option 1 is that the notes are layed out linearly. This means that in the bottom left corner is a C, moving right goes up a note and moving up goes up an octave. You can change the octave of the rows by moving up and down. This is also the default option when the launchpad boots up. It looks like this:
 
+<img width="166" height="139" alt="layout 1" src="https://github.com/user-attachments/assets/b18e3a55-cdba-464b-ab1f-3098894ba2c5" />
 
 - Option 2 is for the notes to be layed out in a c scale. The bottom left note is still a C and going right still goes up a note. But going up goes up a fourth instead of an octave. This layout is the default layout on the Ableton Push and lloks like this:
+
+<img width="179" height="139" alt="layout 2" src="https://github.com/user-attachments/assets/f2c607f0-dc67-40d4-abfa-1c4f2ea058d4" />
 
 ## progress
 
