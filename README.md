@@ -34,4 +34,12 @@ The current progress.
 - [x] Design the schematic.
 - [x] Design the pcb.
 - [x] Design the case.
-- [x] Write the firmware. (Not every feature is implemented.)
+- [x] Write the firmware.
+
+I know not a lot of the features I talk about aren't implemented yet. But for SoM those won't be included. This is beacuse mini midi magic started pretty late and it doesn't really have an end date yet. So by the end of mini midi magic this will all be implemented. The current features that aren't implemented are:
+- Connecting to Ableton Live.
+- Playing and controlling things in Ableton Live.
+- Having a more complex and better synthesizer.
+- Being able to change the synthesizer.
+- Using the launchpad as an audio interface.
+- And I might even add more features.
