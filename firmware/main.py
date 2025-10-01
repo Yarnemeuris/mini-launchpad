@@ -1,22 +1,31 @@
 import _thread
+import audiobusio # type: ignore
+import audiocore # type: ignore
+import board # type: ignore
+import audiomixer # type: ignore
+import array
 from machine import *
 import math
-import usb_midi # pyright: ignore[reportMissingImports]
-import adafruit_midi # pyright: ignore[reportMissingImports]
+import usb_midi # type: ignore
+import adafruit_midi # type: ignore
 
-from adafruit_midi.note_off import NoteOff # pyright: ignore[reportMissingImports]
-from adafruit_midi.note_on import NoteOn # pyright: ignore[reportMissingImports]
+from adafruit_midi.note_off import NoteOff # type: ignore
+from adafruit_midi.note_on import NoteOn # type: ignore
 
 globalUpdates = {"pins": [], "noteBottem": 0}
 notes = ["C", "D", "E", "F", "G", "A", "B"]
+voices = [-1 for _ in range(8)]
 
 #pins
 midi = adafruit_midi.MIDI(
     midi_in=usb_midi.ports[0], in_channel=0, midi_out=usb_midi.ports[1], out_channel=0
 )
+dac = audiobusio.I2SOut(bit_clock=board.GP0, word_select=board.GP1, data=board.GP2)
+mixer = audiomixer.Mixer(voice_count=8, sample_rate=8000, channel_count=1, bits_per_sample=8, samples_signed=False)
 
 i2c = I2C(0, scl=Pin(1), sda=Pin(0))
 PiI2s = Pin(25, Pin.OUT, value=0)
+dacPower = Pin(13, Pin.OUT, value=0) # 0 is on
 intPins = [Pin(i, Pin.IN, Pin.PULL_UP) for i in [0,1,2,3,6]]
 
 movePins = [Pin(i, Pin.IN, Pin.PULL_UP) for i in [24,23,21,22]]
@@ -37,6 +46,8 @@ for i in range(0x20, 0x24+1):
     i2c.writeto_mem(i, 0x09, 0b00000000)
     i2c.writeto_mem(i, 0x0C, 0b11111111)
     i2c.writeto_mem(i, 0x0D, 0b11111111)
+
+dac.play(mixer)
 
 # handel interupts
 def getSetBits(byte, addvalue=0): #returns list of the indecies of all the bits that are set.
@@ -77,14 +88,39 @@ def core1():
 core1Thread = _thread.start_new_thread(core1)
 
 def indexToNote(i):
-    return notes[i%8] + (math.floor(i/8) + globalUpdates["noteBottem"])
+    return notes[i%8] + (i//8 + globalUpdates["noteBottem"])
+
+def noteToFreq(note):
+    return (440 / 32) * (2 ** ((note - 69) / 12))
+
+def freqToSample(freq):
+    length = 8000 // freq
+    sine_wave = array.array("h", [0] * length)
+    for i in range(length):
+        sine_wave[i] = int(math.sin(math.pi * 2 * i / length) * (2 ** 15))
+    return sine_wave
 
 while True:
     if globalUpdates["pins"].count != 0:
         for index in globalUpdates["pins"]:
-            pin = pinStates[math.floor(index/8)][index%8]
+            pin = pinStates[index//8][index%8]
+            note = indexToNote(index)
+
             if pin == 0:
-                midi.send(NoteOff(indexToNote(index), 0))
+                midi.send(NoteOff(note, 0))
+
+                voiceIndex = voices.index(note) if note in voices else -1
+                if voiceIndex != -1:
+                    mixer.stop_voice(voiceIndex)
+                    voices[voiceIndex] = -1
+
             elif pin == 1:
-                midi.send(NoteOn(indexToNote(index), 100))
+                midi.send(NoteOn(note, 100))
+
+                voiceIndex = voices.index(-1) if -1 in voices else -1
+                if voiceIndex != -1:
+                    sample = audiocore.RawSample(freqToSample(noteToFreq(note)))
+                    mixer.play(sample, voice=voiceIndex, loop=True)
+                    voices[voiceIndex] = note
+
         globalUpdates["pins"].pop(index)
