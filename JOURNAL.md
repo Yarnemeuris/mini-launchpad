@@ -180,3 +180,11 @@ I kind of forgot to journal the previous days. So to todays time I will add 2 ho
 <img width="539" height="936" alt="code" src="https://github.com/user-attachments/assets/44dec570-ed38-490e-beb1-cd3642bf57bb" />
 
 **Total time spent: 3h**
+
+# Oktober 1st: The first basic features are done.
+
+I made it so that you can actually hear the notes that you are playing with a basic synthesizer. I also added a second layout and update the readme a bit. Today I the las day of SoM. Which means I shipped my project today. I don't know if my ship will be certified because i don't really have a demo and only the basic features are implemented in the firmware. I just hop that they will understand that it wouldn't be possible for me to have a demo yet. Because mini midi magic doesn't even have an end date yet and there would be no way that I would already have the pcb.
+
+<img width="1198" height="799" alt="code" src="https://github.com/user-attachments/assets/a3c18415-1672-4c5d-9adb-2ef903196e66" />
+
+**Total time spent: 3h**
