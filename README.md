@@ -43,3 +43,5 @@ I know not a lot of the features I talk about aren't implemented yet. But for So
 - Being able to change the synthesizer.
 - Using the launchpad as an audio interface.
 - And I might even add more features.
+
+  I am also unsure if any of the code works and if the case is fully correct. Because I don't have the physical board myself. This will also change before the end of mini midi magic.
