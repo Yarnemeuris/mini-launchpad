@@ -12,8 +12,9 @@ import adafruit_midi # type: ignore
 from adafruit_midi.note_off import NoteOff # type: ignore
 from adafruit_midi.note_on import NoteOn # type: ignore
 
-globalUpdates = {"pins": [], "noteBottem": 0}
+globalUpdates = {"pins": [], "noteBottem": 0, "noteLayout": "linear"}
 notes = ["C", "D", "E", "F", "G", "A", "B"]
+noteLayouts = ["linear", "scale"]
 voices = [-1 for _ in range(8)]
 
 #pins
@@ -29,6 +30,7 @@ dacPower = Pin(13, Pin.OUT, value=0) # 0 is on
 intPins = [Pin(i, Pin.IN, Pin.PULL_UP) for i in [0,1,2,3,6]]
 
 movePins = [Pin(i, Pin.IN, Pin.PULL_UP) for i in [24,23,21,22]]
+notePin = Pin(18, Pin.IN, Pin.PULL_UP)
 pinStates = [[0 for _ in range(8)] for _ in range(8)]
 
 #i²c setup
@@ -78,17 +80,26 @@ def moveInterupt(pin):
     if pinIndex == 0 or pinIndex == 2:
         globalUpdates["noteBottem"] -= (pinIndex-1)*8
 
+def noteInterupt(pin):
+    globalUpdates["noteLayout"] = noteLayouts[(noteLayouts.index(globalUpdates["noteLayout"])+1)%len(noteLayouts)]
+
 # core 1 function
 def core1():
     for pin in intPins:
         pin.irq(I2CInterupt, pin.IRQ_RISING)
     for pin in movePins:
         pin.irq(moveInterupt, pin.IRQ_RISING)
+    
+    notePin.irq(noteInterupt, notePin.IRQ_FALLING)
 
 core1Thread = _thread.start_new_thread(core1)
 
 def indexToNote(i):
-    return notes[i%8] + (i//8 + globalUpdates["noteBottem"])
+    if globalUpdates["noteLayout"] == "linear":
+        return notes[(i//8)%7] + str(8 - i%8 + globalUpdates["noteBottem"])
+
+    elif globalUpdates["noteLayout"] == "scale":
+        return notes[(i//8 + 4*((i)%8))%7] + str(math.floor(1+ (8-i%8)/2.4 + (i//8)/7)) # this should be correct without any transformations
 
 def noteToFreq(note):
     return (440 / 32) * (2 ** ((note - 69) / 12))
